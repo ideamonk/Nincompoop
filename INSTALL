@@ -1,0 +1,34 @@
+Ubuntu users -
+--------------
+
+	1. Get liballegro4.2-dev
+
+		$ sudo apt-get install liballegro4.2-dev
+
+	2. Compile nincompoop
+
+		$ g++ main.cpp -o nincompoop -lalleg-4.2.2
+
+	3. Run nincompoop to test
+
+		$ ./nincompoop
+
+
+Non Ubuntu users / if liballegro4.2 is not in your repository -
+---------------------------------------------------------------
+
+	1. Get allegro 4.2.x source from svn
+
+		http://wiki.allegro.cc/index.php?title=Allegro_development#4.2.x
+
+	2. Follow instructions to build liballegro, install
+
+	3. Compile nincompoop
+
+		$ g++ main.cpp -o nincompoop -lalleg-4.2.2
+
+	4. Have fun
+
+		$ ./nincompoop
+
+
