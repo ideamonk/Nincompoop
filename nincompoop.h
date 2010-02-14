@@ -66,34 +66,34 @@ class nincompoops {
 /////////////////////////////////////////////////////////////////////////////////////////////////
 		bool loadSprites(){
 			// loads Righ stances of sprite
-			// assets\\bat_attack\\nincompoop0001.bmp
-			hp = load_bitmap ("assets\\health.bmp",workpal);
+			// assets/bat_attack/nincompoop0001.bmp
+			hp = load_bitmap ("assets/health.bmp",workpal);
 			
-			sprite_walk[1][0] = load_bitmap ("assets\\plain_walk\\nincompoop0001.bmp",workpal);
-			sprite_walk[1][1] = load_bitmap ("assets\\plain_walk\\nincompoop0002.bmp",workpal);
-			sprite_walk[1][2] = load_bitmap ("assets\\plain_walk\\nincompoop0003.bmp",workpal);
-			sprite_walk[1][3] = load_bitmap ("assets\\plain_walk\\nincompoop0004.bmp",workpal);
-			sprite_walk[1][4] = load_bitmap ("assets\\plain_walk\\nincompoop0005.bmp",workpal);
-			sprite_walk[1][5] = load_bitmap ("assets\\plain_walk\\nincompoop0006.bmp",workpal);
-			sprite_walk[1][6] = load_bitmap ("assets\\plain_walk\\nincompoop0007.bmp",workpal);
-			sprite_walk[1][7] = load_bitmap ("assets\\plain_walk\\nincompoop0008.bmp",workpal);
-			sprite_walk[1][8] = load_bitmap ("assets\\plain_walk\\nincompoop0009.bmp",workpal);
-			sprite_walk[1][9] = load_bitmap ("assets\\plain_walk\\nincompoop0010.bmp",workpal);
-			sprite_walk[1][10] = load_bitmap ("assets\\plain_walk\\nincompoop0011.bmp",workpal);
-			sprite_walk[1][11] = load_bitmap ("assets\\plain_walk\\nincompoop0012.bmp",workpal);
+			sprite_walk[1][0] = load_bitmap ("assets/plain_walk/nincompoop0001.bmp",workpal);
+			sprite_walk[1][1] = load_bitmap ("assets/plain_walk/nincompoop0002.bmp",workpal);
+			sprite_walk[1][2] = load_bitmap ("assets/plain_walk/nincompoop0003.bmp",workpal);
+			sprite_walk[1][3] = load_bitmap ("assets/plain_walk/nincompoop0004.bmp",workpal);
+			sprite_walk[1][4] = load_bitmap ("assets/plain_walk/nincompoop0005.bmp",workpal);
+			sprite_walk[1][5] = load_bitmap ("assets/plain_walk/nincompoop0006.bmp",workpal);
+			sprite_walk[1][6] = load_bitmap ("assets/plain_walk/nincompoop0007.bmp",workpal);
+			sprite_walk[1][7] = load_bitmap ("assets/plain_walk/nincompoop0008.bmp",workpal);
+			sprite_walk[1][8] = load_bitmap ("assets/plain_walk/nincompoop0009.bmp",workpal);
+			sprite_walk[1][9] = load_bitmap ("assets/plain_walk/nincompoop0010.bmp",workpal);
+			sprite_walk[1][10] = load_bitmap ("assets/plain_walk/nincompoop0011.bmp",workpal);
+			sprite_walk[1][11] = load_bitmap ("assets/plain_walk/nincompoop0012.bmp",workpal);
 			
-			sprite_walk[3][0] = load_bitmap ("assets\\bat_attack\\nincompoop0001.bmp",workpal);
-			sprite_walk[3][1] = load_bitmap ("assets\\bat_attack\\nincompoop0002.bmp",workpal);
-			sprite_walk[3][2] = load_bitmap ("assets\\bat_attack\\nincompoop0003.bmp",workpal);
-			sprite_walk[3][3] = load_bitmap ("assets\\bat_attack\\nincompoop0004.bmp",workpal);
-			sprite_walk[3][4] = load_bitmap ("assets\\bat_attack\\nincompoop0005.bmp",workpal);
-			sprite_walk[3][5] = load_bitmap ("assets\\bat_attack\\nincompoop0006.bmp",workpal);
-			sprite_walk[3][6] = load_bitmap ("assets\\bat_attack\\nincompoop0007.bmp",workpal);
-			sprite_walk[3][7] = load_bitmap ("assets\\bat_attack\\nincompoop0008.bmp",workpal);
-			sprite_walk[3][8] = load_bitmap ("assets\\bat_attack\\nincompoop0009.bmp",workpal);
-			sprite_walk[3][9] = load_bitmap ("assets\\bat_attack\\nincompoop0010.bmp",workpal);
-			sprite_walk[3][10] = load_bitmap ("assets\\bat_attack\\nincompoop0011.bmp",workpal);
-			sprite_walk[3][11] = load_bitmap ("assets\\bat_attack\\nincompoop0012.bmp",workpal);
+			sprite_walk[3][0] = load_bitmap ("assets/bat_attack/nincompoop0001.bmp",workpal);
+			sprite_walk[3][1] = load_bitmap ("assets/bat_attack/nincompoop0002.bmp",workpal);
+			sprite_walk[3][2] = load_bitmap ("assets/bat_attack/nincompoop0003.bmp",workpal);
+			sprite_walk[3][3] = load_bitmap ("assets/bat_attack/nincompoop0004.bmp",workpal);
+			sprite_walk[3][4] = load_bitmap ("assets/bat_attack/nincompoop0005.bmp",workpal);
+			sprite_walk[3][5] = load_bitmap ("assets/bat_attack/nincompoop0006.bmp",workpal);
+			sprite_walk[3][6] = load_bitmap ("assets/bat_attack/nincompoop0007.bmp",workpal);
+			sprite_walk[3][7] = load_bitmap ("assets/bat_attack/nincompoop0008.bmp",workpal);
+			sprite_walk[3][8] = load_bitmap ("assets/bat_attack/nincompoop0009.bmp",workpal);
+			sprite_walk[3][9] = load_bitmap ("assets/bat_attack/nincompoop0010.bmp",workpal);
+			sprite_walk[3][10] = load_bitmap ("assets/bat_attack/nincompoop0011.bmp",workpal);
+			sprite_walk[3][11] = load_bitmap ("assets/bat_attack/nincompoop0012.bmp",workpal);
 			
 			_w = sprite_walk[1][0]->w;				// height & width
 			_h = sprite_walk[1][0]->h;

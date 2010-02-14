@@ -64,9 +64,9 @@ class enemies {
 				/******* MMX BOT  *******/
 				maxFrame = 3;
 				// loads Righ stances of sprite
-				sprite_walk[1][0] = load_bitmap ("assets//enemies//1//frame1.bmp",workpal);
-				sprite_walk[1][1] = load_bitmap ("assets//enemies//1//frame2.bmp",workpal);
-				sprite_walk[1][2] = load_bitmap ("assets//enemies//1//frame3.bmp",workpal);
+				sprite_walk[1][0] = load_bitmap ("assets/enemies/1/frame1.bmp",workpal);
+				sprite_walk[1][1] = load_bitmap ("assets/enemies/1/frame2.bmp",workpal);
+				sprite_walk[1][2] = load_bitmap ("assets/enemies/1/frame3.bmp",workpal);
 				x = _x;
 				y = _y;
 			}
@@ -75,12 +75,12 @@ class enemies {
 				/******* FIRE OWL  *******/
 				maxFrame = 6;
 				// loads Righ stances of sprite
-				sprite_walk[1][0] = load_bitmap ("assets//enemies//2//frame1.bmp",workpal);
-				sprite_walk[1][1] = load_bitmap ("assets//enemies//2//frame2.bmp",workpal);
-				sprite_walk[1][2] = load_bitmap ("assets//enemies//2//frame3.bmp",workpal);
-				sprite_walk[1][3] = load_bitmap ("assets//enemies//2//frame4.bmp",workpal);
-				sprite_walk[1][4] = load_bitmap ("assets//enemies//2//frame5.bmp",workpal);
-				sprite_walk[1][5] = load_bitmap ("assets//enemies//2//frame6.bmp",workpal);
+				sprite_walk[1][0] = load_bitmap ("assets/enemies/2/frame1.bmp",workpal);
+				sprite_walk[1][1] = load_bitmap ("assets/enemies/2/frame2.bmp",workpal);
+				sprite_walk[1][2] = load_bitmap ("assets/enemies/2/frame3.bmp",workpal);
+				sprite_walk[1][3] = load_bitmap ("assets/enemies/2/frame4.bmp",workpal);
+				sprite_walk[1][4] = load_bitmap ("assets/enemies/2/frame5.bmp",workpal);
+				sprite_walk[1][5] = load_bitmap ("assets/enemies/2/frame6.bmp",workpal);
 				x = _x;
 				y = _y;
 			}
@@ -89,12 +89,12 @@ class enemies {
 				/******* FIRE OWL  *******/
 				maxFrame = 5;
 				// loads Righ stances of sprite
-				sprite_walk[1][0] = load_bitmap ("assets//enemies//3//frame1.bmp",workpal);
-				sprite_walk[1][1] = load_bitmap ("assets//enemies//3//frame2.bmp",workpal);
-				sprite_walk[1][2] = load_bitmap ("assets//enemies//3//frame3.bmp",workpal);
-				sprite_walk[1][3] = load_bitmap ("assets//enemies//3//frame4.bmp",workpal);
-				sprite_walk[1][4] = load_bitmap ("assets//enemies//3//frame5.bmp",workpal);
-				//rite_walk[1][5] = load_bitmap ("assets//enemies//2//frame6.bmp",workpal);
+				sprite_walk[1][0] = load_bitmap ("assets/enemies/3/frame1.bmp",workpal);
+				sprite_walk[1][1] = load_bitmap ("assets/enemies/3/frame2.bmp",workpal);
+				sprite_walk[1][2] = load_bitmap ("assets/enemies/3/frame3.bmp",workpal);
+				sprite_walk[1][3] = load_bitmap ("assets/enemies/3/frame4.bmp",workpal);
+				sprite_walk[1][4] = load_bitmap ("assets/enemies/3/frame5.bmp",workpal);
+				//rite_walk[1][5] = load_bitmap ("assets/enemies//2//frame6.bmp",workpal);
 				x = _x;
 				y = _y;
 			}
@@ -103,12 +103,12 @@ class enemies {
 				/******* FIRE OWL  *******/
 				maxFrame = 4;
 				// loads Righ stances of sprite
-				sprite_walk[1][0] = load_bitmap ("assets//enemies//4//frame1.bmp",workpal);
-				sprite_walk[1][1] = load_bitmap ("assets//enemies//4//frame2.bmp",workpal);
-				sprite_walk[1][2] = load_bitmap ("assets//enemies//4//frame3.bmp",workpal);
-				sprite_walk[1][3] = load_bitmap ("assets//enemies//4//frame4.bmp",workpal);
-				//sprite_walk[1][4] = load_bitmap ("assets//enemies//3//frame5.bmp",workpal);
-				//rite_walk[1][5] = load_bitmap ("assets//enemies//2//frame6.bmp",workpal);
+				sprite_walk[1][0] = load_bitmap ("assets/enemies/4/frame1.bmp",workpal);
+				sprite_walk[1][1] = load_bitmap ("assets/enemies/4/frame2.bmp",workpal);
+				sprite_walk[1][2] = load_bitmap ("assets/enemies/4/frame3.bmp",workpal);
+				sprite_walk[1][3] = load_bitmap ("assets/enemies/4/frame4.bmp",workpal);
+				//sprite_walk[1][4] = load_bitmap ("assets/enemies//3//frame5.bmp",workpal);
+				//rite_walk[1][5] = load_bitmap ("assets/enemies//2//frame6.bmp",workpal);
 				x = _x;
 				y = _y;
 			}
@@ -117,12 +117,12 @@ class enemies {
 				/******* FIRE OWL  *******/
 				maxFrame = 4;
 				// loads Righ stances of sprite
-				sprite_walk[1][0] = load_bitmap ("assets//enemies//5//frame1.bmp",workpal);
-				sprite_walk[1][1] = load_bitmap ("assets//enemies//5//frame2.bmp",workpal);
-				sprite_walk[1][2] = load_bitmap ("assets//enemies//5//frame3.bmp",workpal);
-				sprite_walk[1][3] = load_bitmap ("assets//enemies//5//frame4.bmp",workpal);
-				//sprite_walk[1][4] = load_bitmap ("assets//enemies//3//frame5.bmp",workpal);
-				//rite_walk[1][5] = load_bitmap ("assets//enemies//2//frame6.bmp",workpal);
+				sprite_walk[1][0] = load_bitmap ("assets/enemies/5/frame1.bmp",workpal);
+				sprite_walk[1][1] = load_bitmap ("assets/enemies/5/frame2.bmp",workpal);
+				sprite_walk[1][2] = load_bitmap ("assets/enemies/5/frame3.bmp",workpal);
+				sprite_walk[1][3] = load_bitmap ("assets/enemies/5/frame4.bmp",workpal);
+				//sprite_walk[1][4] = load_bitmap ("assets/enemies//3//frame5.bmp",workpal);
+				//rite_walk[1][5] = load_bitmap ("assets/enemies//2//frame6.bmp",workpal);
 				x = _x;
 				y = _y;
 			}

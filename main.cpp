@@ -17,20 +17,20 @@ int main() {
 	nin.loadSprites();
 	int i=0;
 	work = create_bitmap(screen->w,screen->h);
-	level = load_bitmap("assets\\levels\\level1\\overlay.bmp",workpal);
-	colmap = load_bitmap("assets\\levels\\level1\\cmap.bmp",workpal);
-	bg = load_bitmap ("assets\\levels\\level1\\bg.bmp",workpal);
-	BITMAP *lose = load_bitmap("assets\\levels\\level1\\lost.bmp",workpal);
-	BITMAP *win = load_bitmap("assets\\levels\\level1\\end.bmp",workpal);
-		BITMAP *start = load_bitmap("assets\\levels\\level1\\start.bmp",workpal);
-	load_enemies("assets\\levels\\level1\\enemy.txt");
-	load_items("assets\\levels\\level1\\items.txt");
+	level = load_bitmap("assets/levels/level1/overlay.bmp",workpal);
+	colmap = load_bitmap("assets/levels/level1/cmap.bmp",workpal);
+	bg = load_bitmap ("assets/levels/level1/bg.bmp",workpal);
+	BITMAP *lose = load_bitmap("assets/levels/level1/lost.bmp",workpal);
+	BITMAP *win = load_bitmap("assets/levels/level1/end.bmp",workpal);
+		BITMAP *start = load_bitmap("assets/levels/level1/start.bmp",workpal);
+	load_enemies("assets/levels/level1/enemy.txt");
+	load_items("assets/levels/level1/items.txt");
 	SAMPLE *hit,*bat,*pts,*fall;
 	
-	hit = load_sample ("assets\\sounds\\hit.wav");
-	bat = load_sample ("assets\\sounds\\bat.wav");
-	pts = load_sample ("assets\\sounds\\points.wav");
-	fall = load_sample ("assets\\sounds\\fall.wav");
+	hit = load_sample ("assets/sounds/hit.wav");
+	bat = load_sample ("assets/sounds/bat.wav");
+	pts = load_sample ("assets/sounds/points.wav");
+	fall = load_sample ("assets/sounds/fall.wav");
 	
 	blit (start,screen,0,0,0,0,400,300);
 	readkey();

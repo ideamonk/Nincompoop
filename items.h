@@ -30,10 +30,10 @@ class items {
 			animFrames = 0;
 			b_x= s_x = 0;
 			b_y = s_y = 0;
-			dis[0] = load_bitmap ("assets\\items\\0\\frame1.bmp",workpal);
-			dis[1] = load_bitmap ("assets\\items\\0\\frame2.bmp",workpal);
-			dis[2] = load_bitmap ("assets\\items\\0\\frame3.bmp",workpal);
-			dis[3] = load_bitmap ("assets\\items\\0\\frame4.bmp",workpal);
+			dis[0] = load_bitmap ("assets/items/0/frame1.bmp",workpal);
+			dis[1] = load_bitmap ("assets/items/0/frame2.bmp",workpal);
+			dis[2] = load_bitmap ("assets/items/0/frame3.bmp",workpal);
+			dis[3] = load_bitmap ("assets/items/0/frame4.bmp",workpal);
 		}
 
 
@@ -47,10 +47,10 @@ class items {
 			if (type == 1){
 				
 				// loads Righ stances of sprite
-				sprite[0] = load_bitmap ("assets\\items\\1\\frame1.bmp",workpal);
-				sprite[1] = load_bitmap ("assets\\items\\1\\frame2.bmp",workpal);
-				sprite[2] = load_bitmap ("assets\\items\\1\\frame3.bmp",workpal);
-				sprite[3] = load_bitmap ("assets\\items\\1\\frame4.bmp",workpal);
+				sprite[0] = load_bitmap ("assets/items/1/frame1.bmp",workpal);
+				sprite[1] = load_bitmap ("assets/items/1/frame2.bmp",workpal);
+				sprite[2] = load_bitmap ("assets/items/1/frame3.bmp",workpal);
+				sprite[3] = load_bitmap ("assets/items/1/frame4.bmp",workpal);
 				x = _x;
 				y = _y;
 			}
@@ -58,10 +58,10 @@ class items {
 			if (type == 2){
 
 				// loads Righ stances of sprite
-				sprite[0] = load_bitmap ("assets\\items\\2\\frame1.bmp",workpal);
-				sprite[1] = load_bitmap ("assets\\items\\2\\frame2.bmp",workpal);
-				sprite[2] = load_bitmap ("assets\\items\\2\\frame3.bmp",workpal);
-				sprite[3] = load_bitmap ("assets\\items\\2\\frame4.bmp",workpal);
+				sprite[0] = load_bitmap ("assets/items/2/frame1.bmp",workpal);
+				sprite[1] = load_bitmap ("assets/items/2/frame2.bmp",workpal);
+				sprite[2] = load_bitmap ("assets/items/2/frame3.bmp",workpal);
+				sprite[3] = load_bitmap ("assets/items/2/frame4.bmp",workpal);
 				x = _x;
 				y = _y;
 			}
@@ -69,10 +69,10 @@ class items {
 			if (type == 3){
 
 				// loads Righ stances of sprite
-				sprite[0] = load_bitmap ("assets\\items\\3\\frame1.bmp",workpal);
-				sprite[1] = load_bitmap ("assets\\items\\3\\frame2.bmp",workpal);
-				sprite[2] = load_bitmap ("assets\\items\\3\\frame3.bmp",workpal);
-				sprite[3] = load_bitmap ("assets\\items\\3\\frame4.bmp",workpal);
+				sprite[0] = load_bitmap ("assets/items/3/frame1.bmp",workpal);
+				sprite[1] = load_bitmap ("assets/items/3/frame2.bmp",workpal);
+				sprite[2] = load_bitmap ("assets/items/3/frame3.bmp",workpal);
+				sprite[3] = load_bitmap ("assets/items/3/frame4.bmp",workpal);
 				x = _x;
 				y = _y;
 			}
@@ -80,10 +80,10 @@ class items {
 			if (type == 4){
 
 				// loads Righ stances of sprite
-				sprite[0] = load_bitmap ("assets\\items\\4\\frame1.bmp",workpal);
-				sprite[1] = load_bitmap ("assets\\items\\4\\frame2.bmp",workpal);
-				sprite[2] = load_bitmap ("assets\\items\\4\\frame3.bmp",workpal);
-				sprite[3] = load_bitmap ("assets\\items\\4\\frame4.bmp",workpal);
+				sprite[0] = load_bitmap ("assets/items/4/frame1.bmp",workpal);
+				sprite[1] = load_bitmap ("assets/items/4/frame2.bmp",workpal);
+				sprite[2] = load_bitmap ("assets/items/4/frame3.bmp",workpal);
+				sprite[3] = load_bitmap ("assets/items/4/frame4.bmp",workpal);
 				x = _x;
 				y = _y;
 			}
