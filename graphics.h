@@ -7,7 +7,7 @@ void init_allegro() {
 	set_color_depth(16);
 	res = set_gfx_mode(GFX_AUTODETECT, 400, 300, 0, 0);
 	if (res != 0) {
-		allegro_message(allegro_error);
+		allegro_message("Couldn\'nt set 400x300 resolution.'");
 		exit(-1);
 	}
 
