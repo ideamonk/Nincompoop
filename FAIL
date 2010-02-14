@@ -1,0 +1,5 @@
+Looking at the absence of makefile and functional codes inside the header files 
+you'll be convinced that this fella doesn't know any C/C++/make/etc
+
+But the reason for this crappiness exists is that this game was written over a 
+very short period of time with strict deadlines to be met withing 10hrs.
